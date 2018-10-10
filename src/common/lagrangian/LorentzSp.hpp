@@ -26,4 +26,16 @@ class LorentzSp :  public QuantumFSM {
   size_t size() const;
   const UnivariateTopology& vanishingTopos() const;
 
-}
+  /*
+   * Return the element desired.
+   */
+
+  bool contains(const TopologyElement& e)const;
+
+private:
+  const std::vector<TopologyElement> posetIndex_;
+  const TopologyElement vanishingTopos_;
+  const SubManifoldSp submanifoldSp_;
+};
+
+#endif
