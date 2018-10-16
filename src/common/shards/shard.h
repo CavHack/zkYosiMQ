@@ -3,21 +3,23 @@
 #pragma once
 
 #define HASH_SIZE 32
-#define WOTS_ell1c (1 << (WOTS_LOG_ell1))
-#define WOTS_chksum 3
-#define WOTS_ell((WOTS_ell1) + (WOTS_chksum))
+
+#define SOLOK_LOG_ell1 6
+#define SOLOK_ell1c (1 << (SOLOK_LOG_ell1))
+#define SOLOK_chksum 3
+#define SOLOK_ell((SOLOK_ell1) + (SOLOK_chksum))
 #define WOTS_w  16
 
 /*Compile flgags*/
 #if 0
-#define PORS_k 28
+#define DEGAS_k 28
 #define MERKLE_h 5
 #define YOSI_d 10
 #define YOSI_c 14
 #endif
 
-#define PORS_tau 16
-#define PORS_t (1 << (PORS_tau))
+#define DEGAS_tau 16
+#define DEGAS_t (1 << (DEGAS_tau))
 
 #define MERKLE_hhh(1 <<(MERKLE_h))
 
