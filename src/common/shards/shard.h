@@ -18,7 +18,11 @@
 
 #define PORS_tau 16
 #define PORS_t (1 << (PORS_tau))
-#define MERKLE_hhh(1, <<(MERKLE_h))
+
+#define MERKLE_hhh(1 <<(MERKLE_h))
+
+#define YOSI_ccc(1 << (YOSI_c))
+#define YOSI_h ((MERKLE_h) *
 
 #define  MAX_SOLITON_LENGTH 8
 #define  MAX_SLAVE_LENGTH 225
