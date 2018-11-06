@@ -1,6 +1,6 @@
 /**
  * Copyright (c) 2019 Venire Labs Inc - tangle-DNA - YosiMQ
- *   
+ *
  *
  */
 
@@ -20,7 +20,10 @@ extern "C" {
 
   //C libs
   typedef struct quant_shard_s shard_t;
-  typedef struct greedy_automata_t_s hood_list_t;
-  
+  typedef struct greedy_automata_t_s neighbors_list_t;
+
+  typedef struct node_s {
+    
+  }
 
 }
