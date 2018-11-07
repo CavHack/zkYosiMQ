@@ -24,8 +24,19 @@ typedef struct yosi_degas_conf_s {
  // LOGGER_WARNING, LOGGER_ERR, LOGGER_CRIT, LOGGER_ALERT and LOGGER_EMERG
 
   logger_level_t log_level;
-}
+} yosi_degas_conf_t;
+
+/**
+* Initializes configurations with default values
+* should be called first
+*
+* @param degas_conf telemetry configuration variables
+* @param telemetry_conf consensus configuration variables
+  @param solitonStreams_conf solitonStreams configuration variables
+  @param api_conf API configuration variables
+*/
 
 
+retcode_t yosi_
 
 }
